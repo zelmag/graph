@@ -1,4 +1,6 @@
 //count number of islands. 
+//O(m*n)
+//space 0(m*n) bc of call stack
 class Solution {
     public int numIslands(char[][] grid) {
         int islands = 0;
